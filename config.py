@@ -29,7 +29,7 @@ def get_secret(name: str):
 GROQ_API_KEY = get_secret("GROQ_API_KEY")
 
 # Model available in your Groq dashboard
-GROQ_MODEL = "groq/compound-mini"
+GROQ_MODEL = "openai/gpt-oss-20b"
 
 # Free-tier usage controls
 MAX_HISTORY_MESSAGES = 8
